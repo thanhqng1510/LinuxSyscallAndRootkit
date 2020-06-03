@@ -53,9 +53,9 @@ Cài đặt hai syscall :
     
 **6. Biên dịch và cài đặt kernel:**
 - Tại file lưu các config mặc định bằng lệnh `sudo make menuconfig`, chọn ***save*** và ***exit***. 
-- Biên dịch kernal bằng lệnh `sudo make -j 4`.
+- Biên dịch kernal bằng lệnh `sudo make -j 2`.
 - Cài đặt kernel bằng lệnh `make modules_install install`.
-- Khởi động lại máy bằng lệnh `sudo reboot`. Khi khởi động vào ***Ubuntu advance option***, chọn kernel ***linux13.3*** để sử dụng.
+- Khởi động lại máy bằng lệnh `sudo reboot`. Khi khởi động vào ***Ubuntu advance option***, chọn kernel ***linux3.13*** để sử dụng.
 
 **7. Test systemcall:**
 - Đi đến thư mục ***1.Syscall***.

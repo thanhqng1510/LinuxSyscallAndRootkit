@@ -24,5 +24,5 @@ Hook vào 2 syscall dưới đây:
 - Gỡ cài đặt module bằng lệnh `sudo rmmod Hook`.
 
 **2. Cách 2: sử dụng lệnh `make auto`:**
-- Chạy lệnh `make auto` để thực hiện toàn bộ các bước trên.
+- Chạy lệnh `sudo make auto` để thực hiện toàn bộ các bước trên.
 - Chạy lệnh `dmesg` để kiểm tra.
